@@ -128,6 +128,13 @@ button.secondary {
   flex-shrink: 0;
 }
 
+.header {
+  font-family: var(--font-geist-sans);
+  grid-row-start: 1;
+  display: flex;
+  gap: 24px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
